@@ -1,0 +1,99 @@
+body{
+    margin:0px;
+    animation: 5s linear 0s infinite running mySlide;
+    
+ 
+}
+#button1:hover{
+    animation: 5s linear 0s infinite running mySlide;
+    font-size: 20px;
+    color: rgb(0, 255, 34);
+    font-weight: bold;
+    border: dotted green;
+    background-color: rgb(208, 24, 24);
+    border-radius: 100px;
+}
+#button1:active{
+    animation: 5s linear 0s infinite running mySlide;
+    font-size: 20px;
+    color: rgb(23, 179, 210);
+    font-weight: bold;
+    border: dotted rgb(175, 232, 31);
+    background-color: rgb(231, 28, 170);
+    border-radius: 100px;
+}
+
+p{
+    clear: both;
+    font-size: larger;
+    color: green;
+    border: 20px solid yellow;
+}
+a:link{
+    animation: 5s linear 0s infinite running mySlide;
+    color: green;
+    font-size: 50px;
+}
+a:link:hover{
+    animation: 5s linear 0s infinite running mySlide;
+    color: rgb(87, 0, 128);
+
+}
+a:link:active{
+    animation: 5s linear 0s infinite running mySlide;
+    color:blue;
+}
+.a:hover{
+    animation: 5s linear 0s infinite running mySlide;
+    color:blue;
+}
+#a:active{
+    animation: 5s linear 0s infinite running mySlide;
+   
+    color:rgb(0, 183, 255);
+    font-style: italic;
+  
+}
+#name:hover{
+    animation: 5s linear 0s infinite running mySlide;
+    color: red;
+}
+.box1{
+
+    font-size: 40px;
+    border: 40px solid yellow;
+    background-color:red;
+    width: 100px;
+    height: 100px; 
+    animation: 5s linear 0s infinite running myWeb;
+   
+}
+@keyframes mySlide{
+    50%{transform: scale(0.5,0.5);}
+
+   
+    10%{background-color: rgb(0, 191, 255);}
+    20%{background-color: rgb(23, 228, 88);}
+    30%{background-color: rgb(170, 255, 0);}
+    40%{background-color: rgb(0, 8, 255);}
+    50%{background-color: rgb(20, 203, 136);}
+    60%{background-color: rgb(215, 177, 27);}
+    70%{background-color: rgb(9, 9, 9);}
+    80%{background-color: rgb(221, 216, 216);}
+    90%{background-color: rgb(255, 225, 0);}
+    100%{background-color: red;}
+   
+    10%{border: double yellow;}
+  
+ 
+  
+   }
+@keyframes myWeb{
+    from{margin-left: 0%;}
+    to{margin-left:100%;}
+    
+
+}
+   
+
+
